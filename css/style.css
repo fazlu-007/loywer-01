@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar-light .navbar-nav .nav-link {
+ color: #204f87;
+ text-transform: uppercase;
+ font-size: 16px;
+ font-weight: 600;
+ 
+}
+.img-logo{
+    width: 50%;
+   
+}
+.banner{
+    background-image: url(../images/banner.png);
+  min-height: 80vh;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.banner h1{
+color: #ffff;
+    font-size: 65px;
+    text-transform: uppercase;
+}
+.icon{
+position: absolute;
+color: #fff;
+font-size: 30px;
+left: 50%;
+top: 80%;
+transform: translate(-50%, 0px);
+animation: updown 1s linear infinite;
+animation-duration: alternate;
+}
+
+@keyframes updown{
+
+    0%{
+        top: 80%;
+    }
+    100%{
+        top: 85%;
+    }
+}
+
+.right-wwr .left-p-two {
+    color: #b0b0b1;
+    font-family: 'Open Sans', sans-serif;
+}
+.right-wwr .left-p-one {
+    color: #b0b0b1;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.right-wwr h1 {
+    color: #204f87;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+
+
+.item-part{
+    background-image: url(../images/bacground-02.png);
+
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+min-height: 60vh;
+
+}
+.wwd-text h1 {
+    color: #204f87;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
+
+.item-bg-one {
+    background-image: url(../images/image-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 55vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.item-bg-two {
+    background-image: url(../images/image-2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 55vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.item-bg-three {
+    background-image: url(../images/image-3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 55vh;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.item-bg-one h1 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
